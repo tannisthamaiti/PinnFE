@@ -6,6 +6,7 @@
   --background-color: #F7FAFC; /* Light gray-blue */
   --text-color: #2D3748;      /* Dark gray */
   --hover-color: #3182CE;     /* Medium blue */
+}
   
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;

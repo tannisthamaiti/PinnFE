@@ -27,7 +27,7 @@ export default function TierSelection() {
       setShowError(false);
       navigate('/storage');  // Navigate to storage selection page
     };
-
+  
     return (
       <div className="page-container">
         <h1 className="text-center mb-6">Select Your Tier Package</h1>

@@ -8,6 +8,7 @@ import TierSelection from './pages/TierSelection';
 import StorageSelection from './pages/StorageSelection';
 import DataUpload from './pages/DataUpload';
 import VendorMap from './pages/VendorMap';
+import DigitalTwin from './pages/DigitalTwin';
 import './index.css';
 import './App.css';
 import Dashboard from './pages/Dashboard';
@@ -33,6 +34,7 @@ function App() {
             <Route path="/upload" element={<DataUpload />} />
             <Route path="/vendor" element={<VendorMap />} />
             <Route path="/dashboard" element={<Dashboard />} />
+            <Route path="/digital-twin" element={<DigitalTwin />} />
             <Route path="/privacy" element={<Privacy />} />
             <Route path="/terms" element={<Terms />} />
             <Route path="/cloud-setup" element={<CloudSiloSetup />} />
